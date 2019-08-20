@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PolitiTwitter</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+      
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Avilon
+    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">PolitiTwitter</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+ 
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-text">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h2>Welcome to PolitiTwitter</h2>
+      <p>PolitiTwitter is a web application designed to connect you with local political <br>non-profits and organizations based on your twitter profile.</p>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Get Started</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Enter your twitter handle below:</p>
+        </div>
+        <div class="form" id = "myForm" name="myForm">
+              <form id = "getInfo" class="contactForm">
+                <!--<div class="form-row" text-align = "center">
+                  <div class="form-group">-->
+                    <span>@</span>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your twitter handle" align="middle"/>
+                    <input type="text" name="address" class="form-control" id="address" placeholder="Your zip code and state" align="middle"/>
+                  <!--</div>
+                </div>-->
+                <div class="text-center">
+                    <button type="submit" id = "bob" title="Send Message" onclick= "replaceImage()"><a href="#about">Submit</button>
+                    </div>
+              </form>
+        
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/original.png" alt="image" id = "location">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            <h2>Please answer the questions below</h2>
+            <h3>They will help us verify the results from our twitter analysis.</h3>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i>Do you believe in stricter gun control laws such as background checks?</li>
+              <pre><p style="padding-left: 200px; color: blue">Yes  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;No</p></pre>
+              <li><i class="ion-android-checkmark-circle"></i>Do you believe the government needs to do more to help impoverished Americans?</li>
+               <pre><p style="padding-left: 200px; color: blue">Yes  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;No</p></pre>
+              <li><i class="ion-android-checkmark-circle"></i>Is increased government spending a necessity?</li>
+               <pre><p style="padding-left: 200px; color: blue">Yes  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;No</p></pre>
+              <li><i class="ion-android-checkmark-circle"></i>Is military strength the best way to ensure global peace and stability?</li>
+               <pre><p style="padding-left: 200px; color: blue">Yes  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;No</p></pre>
+              <li><i class="ion-android-checkmark-circle"></i>Does governmental regulation of business harm the market?</li>
+               <pre><p style="padding-left: 200px; color: blue">Yes  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;No</p></pre>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <p class="cta-text">Click the button below to evaluate your data and receive your results.</p>
+          </div>
+            <div class="text-center"><button type="submit" title="Send Message" href="#features">Evaluate Results</button></div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Product Featuress Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 id="toChange" class="section-title">Your Position on the Political Spectrum</h3>
+              <span class="section-divider"></span>
+            </div>
+
+
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+                  <img src = "img/spectrum.png">
+
+        </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+   
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    
+    
+        <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Your Matched Representatives</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Based on the results from our analysis, we matched you with these representatives.</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/tkaine.png" alt=""></div>
+              <h4>Tim Kaine</h4>
+              <span>Virginia Senator</span>
+              <div class="social">
+                <a target="_blank" href="https://twitter.com/timkaine?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/timkaine/"><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/mwarner.png" alt=""></div>
+              <h4>Mark Warner</h4>
+              <span>Virginia Senator</span>
+              <div class="social">
+                <a target="_blank" href="https://twitter.com/MarkWarner?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/MarkRWarner/"><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/dbeyer.png" alt=""></div>
+              <h4>Don Beyer</h4>
+              <span>Representative of the VA-8th District</span>
+              <div class="social">
+                <a target="_blank" href="https://twitter.com/RepDonBeyer?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/FriendsofDonBeyer/"><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/bsanders.png" alt=""></div>
+              <h4>Bernie Sanders</h4>
+              <span>2020 Presidential Candidate</span>
+              <div class="social">
+                <a target="_blank" href="https://twitter.com/SenSanders?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/senatorsanders/"><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <!--<section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Avilon</h3>
+              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>--><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>PolitiTwitter</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+            -->
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <!--<script>-->
+  <!--  function myMap() {-->
+  <!--  var mapProp= {-->
+  <!--      center:new google.maps.LatLng(51.508742,-0.120850),zoom:5,};var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);}</script>-->
+  <!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>-->
+    
+  <!--<script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File 
+  <script src="contactform/contactform.js"></script>-->
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+        // We'll use Axios to make our HTTP Request, install with NPM or Yarn!
+    var Axios = require('axios')
+    
+    // Our Phone2Action API Key goes here
+    // Super important, we need this to show that we're authorized to make our request
+    var xAPIKey = '' // Should not be empty, see the README for info on how to get an API Key
+    
+    Axios.defaults.headers.common['X-API-Key'] = 'ie5EtNqb2pafUpw0FsMC84hHqrW9L4uf2Ql9YTJF' // We apply the API Key to Axios
+    // We're changing the defaults, so every HTTP Request Axios sends will include the API Key!
+    const { spawn } = require('child_process');
+
+    function fill_vals() {
+        document.getElementById('toChange').value = "Your representative(s)'s names are: "
+        representatives_from_address(document.getElementById('address')).forEach( function (rep) {
+            document.getElementById('toChange').value += rep['first_name'] + " " + rep['last_name']
+        })
+        
+    }
+    
+    function representatives_from_address(address) {
+        //returns a representatives DICTIONARY. 
+        // i commented some code that you need to use to make this work below vvv
+        // representatives.forEach(function(representative) {
+                
+            //     var firstName = representative['first_name']
+            //     var lastName = representative['last_name']
+            //     console.log('Your Representative in national Congress is', firstName, lastName);
+            //     // var medias = representative.socials;
+            //     // handles = []
+            //     // for (var i = 0; i < medias.length; i++) {
+            //     //     if (medias[i].identifier_type == 'TWITTER'){
+            //     //         handles.push(medias[i].identifier_value)
+            //     //
+            //     //     }
+            //     // }
+            // }
+        // First, we define our base URL and our parameters
+        // Our parameters can be a JSON, since Axios will convert them
+        var endpoint = 'https://fmrrixuk32.execute-api.us-east-1.amazonaws.com/hacktj/legislators'
+        var parameters = {
+            'level': 'NATIONAL_LOWER',
+            'address': address
+        }
+        
+        // Now, we're able to fire the configured HTTP GET request
+        // Axios uses JavaScript Promises, so it'll call `.then()` when done
+        Axios.get(endpoint, {
+            params: parameters
+        }).then(function(response) {
+            var representatives = response.data.officials
+            // Finally, we pick out the data we want and print it to the console
+            // Use Postman to figure out what format your data is in and access it accordingly
+            return representatives;
+            // representatives.forEach(function(representative) {
+                
+            //     var firstName = representative['first_name']
+            //     var lastName = representative['last_name']
+            //     console.log('Your Representative in national Congress is', firstName, lastName);
+            //     // var medias = representative.socials;
+            //     // handles = []
+            //     // for (var i = 0; i < medias.length; i++) {
+            //     //     if (medias[i].identifier_type == 'TWITTER'){
+            //     //         handles.push(medias[i].identifier_value)
+            //     //
+            //     //     }
+            //     // }
+        
+            // })
+        }).catch(function(error) {
+            if (xAPIKey === '') {
+                console.error('GET Request failed, your API Key is empty!')
+                console.error('Set the `xAPIKey` variable\'s value (line 6) to your Phone2Action API Key!')
+            } else {
+                console.error(error)
+            }
+        })
+    }
+    // FUNCTION FOR RESPONDING TO BUTTON PRESS
+    // -- Take the order from the user
+    
+    function sendInfo() {
+        console.log("in send")
+       $.ajax({
+                url: "infoStore",                      // goes to https://user.tjhsst.edu/pckosek/kitchen
+                type: "get",                         // use a 'get' type request
+                data:  $('#getInfo').serialize(), //serialize form and pass to server
+                success: function(response) {
+                    document.location.href = "https://user.tjhsst.edu/2020kchawla/";
+                    console.log(response);                
+                },
+                error: function (stat, err) {
+                    console.log(err);                
+                }       
+            });
+    }
+</script>
+
+
+<script>
+
+function replaceImage(){
+        document.getElementById("location").src="img/location.png";
+    
+}
+
+function evaluate() {
+      var x = document.getElementById("team");
+      var y = document.getElementById("features");
+        y.style.visibility = "visibile";
+          x.style.visibility = "visible";
+       console.log("hi");
+       $.ajax({
+                url: "evaluate",                      // goes to https://user.tjhsst.edu/pckosek/kitchen
+                type: "get",                         // use a 'get' type request
+                data:  {"okay":"thing"}, //$('#getInfo').serialize(), //serialize form and pass to server
+                success: function(response) {
+                    
+                    console.log(response);
+                },
+                error: function (stat, err) {
+                    console.log("error");
+                }       
+            });
+    }       
+</script>
+
+</body>
+</html>
